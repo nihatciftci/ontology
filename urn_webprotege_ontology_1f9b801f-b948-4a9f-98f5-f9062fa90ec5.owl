@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:1f9b801f-b948-4a9f-98f5-f9062fa90ec5#"
+     xml:base="urn:webprotege:ontology:1f9b801f-b948-4a9f-98f5-f9062fa90ec5"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:1f9b801f-b948-4a9f-98f5-f9062fa90ec5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZvfXHS95LnQ7C99jNynhB -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8ZvfXHS95LnQ7C99jNynhB">
+        <rdfs:label xml:lang="en">dc date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sHEXJS7Pu7fOZLznO4S9f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7sHEXJS7Pu7fOZLznO4S9f">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBssuFLGxQ9XtlHJj2XDs50"/>
+        <dc:creator xml:lang="tr">İlber Ortaylı</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752430365</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:title xml:lang="tr">İmparatorluğun En Uzun Yüzyılı</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">İmparatorluğun En Uzun Yüzyılı</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Imparatorlugun-En-Uzun-Yuzyili/Arastirma-Tarih/Tarih/Osmanli-Tarihi/urunno=0001744876001?gclid=CjwKCAjwjZmTBhB4EiwAynRmDzPd2IBYHgcTVShzhdLV9LX9sgJNJ0hND-H7TsKT5FX0VYzdxW9zpRoC6OsQAvD_BwE&amp;gclsrc=aw.ds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8FflOiRA6issOHzEvL2EMJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8FflOiRA6issOHzEvL2EMJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtotFHKCioW83azYI50hI"/>
+        <rdfs:label xml:lang="en">Worlds History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lDLmBtImAplCx9bvMlmzA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lDLmBtImAplCx9bvMlmzA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBssuFLGxQ9XtlHJj2XDs50"/>
+        <dc:creator xml:lang="tr">Halil İnalcık</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786258431261</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Türklük Müslümanlık ve Osmanlı Mirası</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Türklük Müslümanlık ve Osmanlı Mirası</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Turkluk-Muslumanlik-ve-Osmanli-Mirasi/Arastirma-Tarih/Tarih/Osmanli-Tarihi/urunno=0001969011001?gclid=CjwKCAjwjZmTBhB4EiwAynRmD5Ah8H8ZGsxoGtNzwbMVbER__dOerG9LmMY6BLNf6XpIKXGxvoUFaxoCwS0QAvD_BwE&amp;gclsrc=aw.ds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5U0HNwgmtEpf0RjOGpvys -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB5U0HNwgmtEpf0RjOGpvys">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FflOiRA6issOHzEvL2EMJ"/>
+        <dc:contributor xml:lang="tr">çev. Uygur Kocabaşoğlu</dc:contributor>
+        <dc:creator xml:lang="tr">Chris Harman</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786055541248</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">YORDAM KİTAP</dc:publisher>
+        <dc:subject xml:lang="tr">Dünya Tarihi</dc:subject>
+        <dc:title xml:lang="en">A People’s History of the World: From the Stone Age to the New Millennium</dc:title>
+        <dc:title xml:lang="tr">Halkların Dünya Tarihi Taş Çağından Yeni Binyıla</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Halkların Dünya Tarihi Taş Çağından Yeni Binyıla</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/halklarin-dunya-tarihi-amp-tas-cagindan-yeni-binyila-ciltli/250956.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIvYaEocSTfLyjBCrRtpx9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBIvYaEocSTfLyjBCrRtpx9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeaQafUwcnvb8KYZlIjqJx"/>
+        <dc:creator xml:lang="tr">İlber Ortaylı</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752430402</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">KRONİK KİTAP</dc:publisher>
+        <dc:subject xml:lang="tr">Yakın Çağ Türk Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Türkiye&apos;nin Yakın Tarihi</dc:title>
+        <rdfs:label xml:lang="en">Türkiye&apos;nin Yakın Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/turkiyenin-yakin-tarihi/455608.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBeaQafUwcnvb8KYZlIjqJx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBeaQafUwcnvb8KYZlIjqJx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtotFHKCioW83azYI50hI"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkey History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBg6mzQymbsvIPKdTiqiQ9Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBg6mzQymbsvIPKdTiqiQ9Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMNlNXHbwASbRwXJtwDs1A"/>
+        <dc:contributor xml:lang="tr">çev. Selma Koçak</dc:contributor>
+        <dc:creator xml:lang="en">John Keegan</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789755534442</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Doruk Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Dünya Savaş Sanatı Tarihi</dc:subject>
+        <dc:title xml:lang="en">Martial Art History</dc:title>
+        <dc:title xml:lang="tr">Savaş Sanatı Tarihi</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Savaş Sanatı Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/savas-sanati-tarihi/105640.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBssuFLGxQ9XtlHJj2XDs50 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBssuFLGxQ9XtlHJj2XDs50">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtotFHKCioW83azYI50hI"/>
+        <rdfs:label xml:lang="en">Ottoman History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtotFHKCioW83azYI50hI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBtotFHKCioW83azYI50hI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNI3L5ZZ8FdrhIDZDYpY8Y"/>
+        <rdfs:label xml:lang="en">HISTORY BOOKS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1lKvfV0imzuwBhpzPLGWr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1lKvfV0imzuwBhpzPLGWr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMNlNXHbwASbRwXJtwDs1A"/>
+        <dc:creator xml:lang="tr">İlkin Başar Özal</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786050827248</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Timaş Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Dünya Savaşı Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Kısa İkinci Dünya Savaşı Tarihi</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Kısa İkinci Dünya Savaşı Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/kisa-ikinci-dunya-savasi-tarihi/487067.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6DJCU8MHCNtg4TiHi3aBJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6DJCU8MHCNtg4TiHi3aBJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FflOiRA6issOHzEvL2EMJ"/>
+        <dc:contributor xml:lang="tr">çev. Egemen Yılgür</dc:contributor>
+        <dc:creator xml:lang="en">Emma Marriott</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786055675844</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Maya Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Dünya Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Bir Nefeste Dünya Tarihi</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Bir Nefeste Dünya Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Bir-Nefeste-Dunya-Tarihi/Arastirma-Tarih/Tarih/Dunya-Tarihi/urunno=0000000580226?gclid=CjwKCAjwjZmTBhB4EiwAynRmD_X4D-ALSeiIQCDf8fOxco1jqYfQIJU3aCZ8SkbRFNeBlq_2wpQCjxoChgcQAvD_BwE&amp;gclsrc=aw.ds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9D6XYWlYpNL3sMOfTn3Pe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC9D6XYWlYpNL3sMOfTn3Pe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMNlNXHbwASbRwXJtwDs1A"/>
+        <dc:creator xml:lang="tr">İlkin Başar Özal</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786050826715</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Timaş Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Dünya Savaşı Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Kısa Birinci Dünya Savaşı Tarihi</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Kısa Birinci Dünya Savaşı Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/kisa-birinci-dunya-savasi-tarihi/450240.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCY5vsVR1wB4OhQs0vyiXHR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCY5vsVR1wB4OhQs0vyiXHR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBssuFLGxQ9XtlHJj2XDs50"/>
+        <dc:creator xml:lang="tr">Halil İnalcık</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752430563</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Osmanlığı İmparatorluğu</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Osmanlığı İmparatorluğu</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Osmanli-Imparatorlugu-2-Cilt-Takim-Kutulu/Arastirma-Tarih/Tarih/Osmanli-Tarihi/urunno=0001756562001?gclid=CjwKCAjwjZmTBhB4EiwAynRmD-CC9-o9yYeEREog5bVBILMh_rmXBlVH6VG5AdDFXXO7QGPTU76WeRoCDJgQAvD_BwE&amp;gclsrc=aw.ds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMNlNXHbwASbRwXJtwDs1A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDMNlNXHbwASbRwXJtwDs1A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBtotFHKCioW83azYI50hI"/>
+        <rdfs:label xml:lang="en">War History Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDh2cQJtC1anYTdcNnLCaYO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDh2cQJtC1anYTdcNnLCaYO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FflOiRA6issOHzEvL2EMJ"/>
+        <dc:creator xml:lang="en">Andrew Marr Marr</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786052971604</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yakamoz Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Dünya Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Büyük Dünya Tarihi</dc:title>
+        <rdfs:label xml:lang="en">Büyük Dünya Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Buyuk-Dunya-Tarihi/Arastirma-Tarih/Tarih/Dunya-Tarihi/urunno=0001768915001?gclid=CjwKCAjwjZmTBhB4EiwAynRmDyJcvY8-gF4Cg-M7BWjbH8FYQQ-8NKqUyV7eIT78YK9IhCEGRacL3RoCxYYQAvD_BwE&amp;gclsrc=aw.ds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNI3L5ZZ8FdrhIDZDYpY8Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNI3L5ZZ8FdrhIDZDYpY8Y">
+        <rdfs:label xml:lang="en">BOOKS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RakUx1eO9joNnN74aUutqL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RakUx1eO9joNnN74aUutqL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8FflOiRA6issOHzEvL2EMJ"/>
+        <dc:contributor xml:lang="tr">çev. Serpil Çağlayan</dc:contributor>
+        <dc:creator xml:lang="en">Merry E. Wiesner-Hanks</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257999519</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Dünya Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Kısa Dünya Tarihi</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Kısa Dünya Tarihi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Kisa-Dunya-Tarihi/Arastirma-Tarih/Tarih/Dunya-Tarihi/urunno=0001863650001?gclid=CjwKCAjwjZmTBhB4EiwAynRmD6Y-JpfHUXfQdhrUGuL0n5AX5exqmLku75o6X6wqFetiuRfHPoKPdxoCvMcQAvD_BwE&amp;gclsrc=aw.ds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReTM6FoZv3WVMGxWGoepsl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReTM6FoZv3WVMGxWGoepsl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeaQafUwcnvb8KYZlIjqJx"/>
+        <dc:contributor xml:lang="tr">çev. Güneş Ayas</dc:contributor>
+        <dc:creator xml:lang="en">Carter V. Findley</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051146935</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">TİMAŞ YAYINLARI</dc:publisher>
+        <dc:subject xml:lang="tr">Modern Türkiye Tarihi</dc:subject>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB xml:lang="tr">Modern Türkiye Tarihi (1789-2007)</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Modern Türkiye Tarihi (1789-2007)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/modern-turkiye-tarihi-17892007ciltli/262319.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjxBHRUL0R456xfBWXfZG3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjxBHRUL0R456xfBWXfZG3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeaQafUwcnvb8KYZlIjqJx"/>
+        <dc:creator xml:lang="tr">İlber Ortaylı</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789752430082</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Cumhuriyet Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Cumhuriyetin İlk Yüzyılı 1923 - 2023</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Cumhuriyetin İlk Yüzyılı 1923 - 2023</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.bkmkitap.com/cumhuriyetin-ilk-yuzyili-1923-2023-kronik-kitap?gclid=CjwKCAjwjZmTBhB4EiwAynRmD64TK_KFxHKJIdbmXn-fOX8bj9l0YqVCXOnOpNyuSCyA6XYyJDfV6BoCHZQQAvD_BwE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RogMgFBUpBZfh3uSHCjBZW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RogMgFBUpBZfh3uSHCjBZW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBeaQafUwcnvb8KYZlIjqJx"/>
+        <dc:creator xml:lang="tr">İlber Ortaylı</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786050801606</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Kronik Kitap</dc:publisher>
+        <dc:subject xml:lang="tr">Yakın Çağ Türk Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Yakın Tarihin Gerçekleri</dc:title>
+        <rdfs:label xml:lang="en">Yakın Tarihin Gerçekleri</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kitapyurdu.com/kitap/yakin-tarihin-gercekleri/576542.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuvJr3OwDaamcthNUrtvtn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuvJr3OwDaamcthNUrtvtn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBssuFLGxQ9XtlHJj2XDs50"/>
+        <dc:creator xml:lang="tr">Halil İnalcık</dc:creator>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Devlet-i ‘Aliyye: Osmanlı İmparatorluğu Üzerine Araştırmalar</dc:title>
+        <webprotege:R8ZvfXHS95LnQ7C99jNynhB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</webprotege:R8ZvfXHS95LnQ7C99jNynhB>
+        <rdfs:label xml:lang="en">Devlet-i ‘Aliyye: Osmanlı İmparatorluğu Üzerine Araştırmalar</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Devlet-I-Aliyye-Osmanli-Imparatorlugu-Uzerine-Arastirmalar-2/Arastirma-Tarih/Tarih/Osmanli-Tarihi/urunno=0000000585104?gclid=CjwKCAjwjZmTBhB4EiwAynRmD4jOTWPX05i8t6f_TbXW61kTDiM56nZqb22HS9Y547vnn0552pzPzRoCwQgQAvD_BwE&amp;gclsrc=aw.ds"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
